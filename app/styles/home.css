@@ -1,0 +1,16 @@
+#content {
+    text-align: center;
+    color: black;
+}
+
+#cta {
+    margin-top: 2rem;
+} 
+
+#cta a {
+    text-decoration: none;
+    color: black;
+    padding: 0.5rem 2rem;
+    border-radius: 4px;
+    font-size: 1.5rem;
+}

@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+#main-navigation {
+    padding: 2rem 15%;
+    display: flex;
+    justify-content: center;
+}
+
+#main-navigation ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-item a:hover,
+.nav-item a.active {
+    color: black;
+}
+
+.error {
+    max-width: 25rem;
+    margin: 3rem auto;
+    padding: 2rem;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+}
+
+.info-message {
+    margin: 2rem;
+    text-align: center;
+    color: black;
+    font-size: 1.5rem;
+}
